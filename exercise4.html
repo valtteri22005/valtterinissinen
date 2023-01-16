@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Let's Learn Flex Box</title>
+
+    <style>
+        
+        body {
+        margin: 0;
+      }
+
+      header, footer {
+        background: purple;
+        height: 100px;
+      }
+
+      h1 {
+        text-align: center;
+        color: white;
+        line-height: 100px;
+        margin: 0;
+      }
+
+      article {
+        padding: 10px;
+        margin: 10px;
+        background: aqua;
+
+      }
+      </style>
+</head>
+<body>
+    <header>
+        <h1>Flex Box Examples </h1>
+      </header>
+      <div class="main">
+        <sidebar style="flex-grow: 2;">
+            SIDEBAR<br>
+            SIDEBAR<br>
+            SIDEBAR<br>
+            SIDEBAR<br>
+            SIDEBAR
+            </sidebar>
+        <section>
+        <article>
+          <h2>What is HTML?</h2>
+          <p>
+            Hypertext Markup Language (HTML) is the standard markup language for 
+            documents that are designed to be displayed in a web browser. HTML is not a programming language. 
+            It is a markup language that tells browser how to structure a web page. HTML is made up of sereis of elements such as a piece of text, a pragraph, 
+             list, table, links or forms.
+          </p>
+        </article>
+  
+        <article>
+          <h2>HTML Elements</h2>
+  
+          <p>
+            As in the above example, html document consists of a tree of elements and text. 
+            Each element starts with a tag and ends with a tag.
+             Tags have to be nested such that they are completely within each other without overlapping .
+          </p>
+        </article>
+  
+        <article>
+          <h2>Block Level Elements</h2>
+  
+          <p>
+            Block-level elements form a visible block on a page. A block-level element appears on a new line 
+            following the content that precedes it. Any content that follows a block-level element also 
+            appears on a new line. Block-level elements are usually structural elements on the page.
+             For example, a block-level element might represent headings, paragraphs, lists, navigation 
+             menus, or footers. A block-level element wouldn't 
+            be nested inside an inline element, but it might be nested inside another block-level element.
+          </p>
+        </article>
+      </section>
+    </div>
+      <footer>
+        <h1>Learning Flex @ 2022</h1>
+    </footer>
+</body>
+</html>
