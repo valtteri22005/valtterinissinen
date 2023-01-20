@@ -1,0 +1,17 @@
+body {
+    background-color: rgb(78, 164, 103);
+}
+footer {
+  background-color: blueviolet;
+  height: 70px;
+  text-align: center;
+}
+.col-3 {
+  background-color: aqua;
+}
+.col-2 {
+  background-color: azure;
+}
+.col-7 {
+  background-color: blue;
+}
